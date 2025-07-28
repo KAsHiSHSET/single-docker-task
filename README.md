@@ -55,3 +55,19 @@ while ($true) { curl http://localhost:3000; Start-Sleep -Seconds 1; Clear-Host }
 
 <img width="1150" height="391" alt="image" src="https://github.com/user-attachments/assets/e2b38de5-49f9-405d-88ab-10b286e1fdca" />
 
+<img width="896" height="237" alt="image" src="https://github.com/user-attachments/assets/90234c15-422c-459e-b1f1-0d8af9ab44f3" />
+
+
+### NGINX Will Do
+#### Sends requests to localhost:3000 ( to Node app inside Docker)
+
+##### With NGINX:
+```nginx
+
+
+User ──(HTTPS on port 443)──> NGINX ──> Docker:3000
+
+
+```
+
+
